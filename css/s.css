@@ -69,10 +69,11 @@ transition: 0.3s;
 
 .btn{
     padding: 15px 25px;
-    background: transparent;
     border: 1px solid #FFAE2B;
     
 }
+
+
 
 .header__btn{
     font-family: 'Old Standard TT',sans-serif;
@@ -80,7 +81,13 @@ font-size: 11px;
 font-weight: 400;
 line-height: 22px;
 color: #FFAE2B;
+background-color: #181511;
+transition: 0.3s;
+}
 
+.header__btn:hover{
+background-color:#181511;
+color: #FFAE2B;
 }
 
 .banner{
@@ -128,6 +135,12 @@ letter-spacing: 0em;
 text-align: center;
 background-color: 
 #FFAE2B;
+transition: 0.3s;
+}
+
+.banner__btn:hover{
+    background-color: #181511;
+    color: #FFAE2B;
 }
 
 .banner2{
@@ -246,10 +259,10 @@ margin-bottom: 60px;
     justify-content: center;
 }
 .serv__card{
-    padding: 141px 76px;
+    padding: 141px 79px ;
     border: 1px solid #4B4136;
-    max-width: 400px; 
-    max-height: 350px;
+     max-width: 400px; 
+   max-height:400px; 
     display: flex;
    align-items: flex-start;
    flex-direction: column;
@@ -283,13 +296,80 @@ font-weight: 400;
 line-height: 26px;
 
 color: #ACA592;
+
 }
 
 .text{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+ padding-bottom: 79px;
     gap: 5px;
 }
 
 
+
+.follow{
+    background: #181511;
+    padding-bottom: 125px;
+}
+.follow__wrap{
+    margin-top: 21px;
+    margin-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card__f{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inst{
+    bottom: -50px;
+    z-index: 0;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+}
+.insta__h{
+    position: relative;
+    font-family: 'Old Standard TT';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #FFAE2B;
+    margin-bottom: 40px;
+}
+.insta{
+    position: absolute;
+    z-index: 0;
+}
+.insta__btn{
+    position: relative;
+    padding: 14px 24px;
+    font-family: 'Old Standard TT';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #181511;
+    text-transform: uppercase;
+    background: #FFAE2B;
+    border-radius: 0px;
+    border: 1px solid #FFAE2B;
+}
+.insta__btn:hover{
+    background: #181511;
+    border-radius: 0px;
+    color: #FFAE2B;
+    border: 1px solid #181511;
+}
